@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="146sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/medium"
+            android:text="Dark 2019"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4sp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/spacestar"
+                android:orientation="horizontal"
+                android:showDividers="middle">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="8sp"
+                    android:layout_height="8sp"
+                    android:layout_marginTop="4sp"
+                    app:srcCompat="@drawable/ic_stars" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="8sp"
+                    android:layout_height="8sp"
+                    android:layout_marginTop="4sp"
+                    app:srcCompat="@drawable/ic_stars" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="8sp"
+                    android:layout_height="8sp"
+                    android:layout_marginTop="4sp"
+                    app:srcCompat="@drawable/ic_stars" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="8sp"
+                    android:layout_height="8sp"
+                    android:layout_marginTop="4sp"
+                    app:srcCompat="@drawable/ic_stars" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="8sp"
+                    android:layout_height="8sp"
+                    android:layout_marginTop="4sp"
+                    app:srcCompat="@drawable/ic_stars" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8sp"
+                android:fontFamily="@font/medium"
+                android:text="(231 Reviews)"
+                android:textColor="#ffffff"
+                android:textSize="10sp"></TextView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
